@@ -1,0 +1,40 @@
+# AI RAG Student Assistant
+# requirements.txt
+
+# Environment Variables
+python-dotenv
+
+# LLM / RAG Framework
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+langchain-mistralai
+groq
+mistralai
+# Document Processing
+pypdf
+python-docx
+unstructured
+
+# Embeddings
+sentence-transformers
+
+# Vector Database
+faiss-cpu
+chromadb
+# API / Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Data Processing
+numpy
+pandas
+
+# HTTP / Utilities
+requests
+
+# Optional: Streamlit UI
+streamlit

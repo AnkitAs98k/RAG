@@ -1,0 +1,25 @@
+Artificial Intelligence (AI) has become one of the most important technologies in modern education. It can help students understand complex topics, summarize large amounts of information, and quickly find answers from their study materials.
+
+Retrieval-Augmented Generation (RAG) is an AI technique that combines information retrieval with large language models. Instead of relying only on the knowledge already learned by an AI model, a RAG system first searches a collection of documents for relevant information and then uses that information to generate an answer.
+
+For example, a student may upload lecture notes, research papers, PDFs, assignments, or study materials to a RAG-based learning assistant. When the student asks a question, the application converts the question into an embedding and searches a vector database for relevant sections of the uploaded documents. These retrieved sections are provided to the language model as context.
+
+Vector databases such as ChromaDB are useful in RAG applications because they store document embeddings and allow semantic similarity searches. Semantic search focuses on the meaning of a question rather than only matching exact keywords.
+
+A typical RAG pipeline contains several stages. First, documents are loaded and their text is extracted. The extracted text is divided into smaller chunks because large documents cannot always be provided directly to a language model. Each chunk is converted into a numerical vector using an embedding model and stored in a vector database.
+
+When a user asks a question, the question is also converted into a vector. The system compares this vector with the stored document vectors and retrieves the most relevant chunks. These chunks, together with the user's question, are sent to a large language model. The model then generates an answer based on the retrieved context.
+
+RAG can be especially useful for students because their knowledge base can be customized using their own materials. A student studying computer science, for example, could upload notes about data structures, machine learning, databases, cloud computing, and operating systems. The assistant could then answer questions specifically from those materials.
+
+Machine learning is a branch of artificial intelligence that enables computers to learn patterns from data. Common types of machine learning include supervised learning, unsupervised learning, and reinforcement learning. Deep learning is a subset of machine learning that uses neural networks with multiple layers.
+
+Transformers are an important neural network architecture used by modern language models. They use an attention mechanism that allows the model to determine which words or tokens are important when processing a sequence. Large language models use transformer architectures to understand and generate natural language.
+
+Cloud computing is another important technology used in modern software applications. Services such as virtual machines, databases, object storage, and load balancers allow developers to deploy scalable applications without maintaining physical infrastructure.
+
+Data structures and algorithms are fundamental concepts in computer science. Arrays, linked lists, stacks, queues, trees, graphs, hash maps, and heaps are commonly used data structures. Algorithms such as binary search, sorting, sliding window, two pointers, recursion, and dynamic programming help developers solve computational problems efficiently.
+
+A well-designed AI study assistant should not simply generate answers. It should retrieve relevant information from the student's documents, provide accurate explanations, preserve the context of the question, and ideally show the source material used to generate the response.
+
+The goal of a student RAG assistant is to transform static study materials into an interactive knowledge system. Instead of manually searching through hundreds of pages, students can ask questions naturally and receive answers based on their own uploaded documents.
